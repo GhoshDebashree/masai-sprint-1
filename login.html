@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<style>
+  body{
+    background:url('sign.jpg');
+    text-align:center;
+    font-size: 40px;
+    font-family: fantasy;
+    margin-top: 100px;
+    color:wheat;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+  }
+  .partlog{
+    display:grid;
+    grid-template-rows: 50%  50% 50%;
+  }
+input{
+  height:30px;
+  color:black;
+  margin:auto;
+  background: lightskyblue;
+  font-size: 20px;
+  font-family: fantasy;
+}
+
+.partlink a:hover {
+  border-bottom: 3px solid #880E4F;
+  text-decoration: none;
+}
+  
+@media only screen and (max-width: 600px){
+    .partlink{
+      display:flex;
+      flex-direction:column;
+    }
+  }
+  a{
+    color:black;
+  }
+
+</style>
+<body> Welcome to the Login Page 
+<div class ="login" >
+    <div class="partlog">
+        <input type="text" name="username" placeholder="Username" required>
+        <input type="password" name="password" placeholder="Password" required>
+        <input type="submit" value="Login">
+    </div> 
+
+      <div class="partlink">
+          <a href="submit.html">Sign up</a> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+         <a href="fillupform.html" >Forgot password?</a> 
+    </div>  
+   </div>   
+   <a href="home.html">Go back...</a>
+</body>

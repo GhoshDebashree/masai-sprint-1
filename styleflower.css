@@ -1,0 +1,91 @@
+body{
+  background: url("hmpage.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%; 
+  color:#3E2723;
+}
+.heading{
+  margin:50px;
+  text-align:center;
+  font-size:100px;
+  font-family:fantasy ;
+}
+
+.topnav {
+  overflow: hidden;
+  
+}
+.topnav a {
+  float:left;
+  color:wheat;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family:fantasy;
+  font-size:25px;
+  border-bottom: 3px solid transparent;
+}
+.topnav a:hover {
+  border-bottom: 3px solid #880E4F;;
+}
+
+#centerquote{
+  margin-top: 300px;
+  text-align:center;
+  font-size:60px;
+  font-family:Brush Script MT, Brush Script Std, cursive;
+  
+}
+.footerpart{
+  display:grid;
+  grid-template-columns: 50% 50%;
+}
+.footerpart > div {
+  margin-top: 700px;
+
+  font-family:fantasy;
+  padding:100px;
+  margin:auto;
+
+}
+.part1{
+  margin-top: 1200px;
+  margin:100px;
+  text-decoration: none;
+  font-size: 30px;
+  color:wheat;;
+}
+.part2{
+  margin-top: 1000px;
+  margin:100px;
+  text-decoration: none;
+  font-size: 30px;
+  color:wheat;
+}
+
+
+footer{
+  text-align:center;
+  font-size:30px;
+  font-family:Brush Script MT, Brush Script Std, cursive;
+}
+input{
+  background-color:#F8BBD0;
+  height:25px;
+  color:darkslategrey;
+  margin:auto;
+  font-size: 20px;
+  font-family: fantasy;
+}
+
+@media only screen and (max-width: 600px){
+  body{
+    background: url('page.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%; 
+  }
+}

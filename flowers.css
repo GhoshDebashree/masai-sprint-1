@@ -1,0 +1,39 @@
+body{
+  background: url('baseflower.jpg');
+  text-align: center;
+  font-size: 80px;
+  font-family: fantasy;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%; 
+}
+img{
+  border-radius: 50%;
+  width:300px;
+  height:300px;
+  text-align:center;
+}
+
+.center {
+  display:grid;
+  grid-template-rows: 50% 50%;
+}
+.center >div{
+  margin:200px;
+  padding:100px;
+}
+a{
+  font-size: 30px;
+  text-decoration: none;
+  color: black;
+  font-family: fantasy;
+}
+@media only screen and (max-width: 600px){
+  img{
+      height:200px;
+      width:150px;
+      margin:50px;
+      border-radius: 50%;
+    }
+  }

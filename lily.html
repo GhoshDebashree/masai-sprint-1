@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<head>
+  <style>
+    img{
+      height:400px;
+      width:350px;
+      margin:100px;
+      border-radius: 50%;
+    }
+    body{
+      background: url('mainlily.jpg');
+      background-position: center;
+      background-repeat: no-repeat;
+     background-size: cover;
+      height: 100%; 
+      font-size: 70px;
+      font-family: fantasy;
+      text-align: center;
+
+}
+.caption{
+  display:block;
+}
+.one{
+  display:grid;
+  grid-template-columns: 50% 50% ;
+}
+.inr{
+  text-align: center;
+  font-size: 30px;
+  font-family: fantasy;
+}
+button{
+  background-color: khaki;
+  font-size: 30px;
+  font-family: fantasy;
+}
+@media only screen and (max-width: 600px){
+  img{
+      height:200px;
+      width:150px;
+      margin:50px;
+      border-radius: 50%;
+    }
+  }
+    
+    </style>
+</head>
+<body>
+  Ohhh Lilies,Lovely !!
+  <div class="one">
+  <div>
+  <img src="lily1.jpg">
+  <div class="inr">INR 200<br> COD available.
+    <button type="button" onclick="alert('Pay now! Go to the payment gateway options')">Checkout!</button></div>
+  </div>
+  <div>
+  <img src="lily2.jpg">
+  <div class="inr">INR 210<br>COD available.
+    <button type="button" onclick="alert('Pay now! Go to the payment gateway options')">Checkout</button></div>
+  </div>
+  <div>
+  <img src="lily3.jpg">
+  <div class="inr">INR 200<br>COD available.
+    <button type="button" onclick="alert('Pay now! Go to the payment gateway options')">Checkout!</button></div>
+</div>
+<div>
+  <img src="lily4.jpg">
+  <div class="inr">INR 250<br>COD available.
+    <button type="button" onclick="alert('Pay now! Go to the payment gateway options')">Checkout!</button></div>
+</div>
+</div>
+
+
+<a href="home.html">Go back...</a>
+
+</body>
